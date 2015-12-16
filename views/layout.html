@@ -19,10 +19,11 @@
 
   <link title="RSS" type="application/rss+xml" rel="alternate" href="/rss"/>
 
-  <% if (config.site_icon) { %>
+  <!-- <% if (config.site_icon) { %>
   <link rel="icon" href="<%- staticFile(config.site_icon) %>" type="image/x-icon"/>
-  <% } %>
-
+  <% } %> -->
+  
+<link rel="icon" href="http://7xnxj2.com1.z0.glb.clouddn.com/1439343991572494.png" type="image/x-icon"/>
   <!-- style -->
   <%- Loader('/public/stylesheets/index.min.css')
   .css('/public/libs/bootstrap/css/bootstrap.css')
@@ -69,11 +70,9 @@
   <div class='navbar-inner'>
     <div class='container'>
       <a class='brand' href='/'>
-        <% if (config.site_logo) {%>
-          <img src="<%- staticFile(config.site_logo) %>" />
-        <%} else {%>
-          <%- config.name %>
-        <%}%>
+        
+          <img src="http://7xnxj2.com1.z0.glb.clouddn.com/1427078735528387.jpg" />
+        
       </a>
 
       <form id='search_form' class='navbar-search' action="/search">
